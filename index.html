@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9teen - Ghana's Online Marketplace</title>
+    <style>
+        :root {
+            --primary-color: #ffd800;
+            --text-color: #111;
+            --bg-color: #f7f9fa;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+        header {
+            background-color: var(--primary-color);
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: #fff;
+        }
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px 5%;
+        }
+        .category-card {
+            background: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>9teen</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Groceries</a></li>
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Fashion</a></li>
+            <li><a href="#">Personal Care</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Welcome to 9teen</h2>
+    <p>Your favorite local marketplace in Ghana</p>
+</section>
+
+<section class="categories">
+    <div class="category-card">
+        <h3>Groceries</h3>
+        <p>Fresh food and household essentials.</p>
+    </div>
+    <div class="category-card">
+        <h3>Electronics</h3>
+        <p>Top gadgets and appliances.</p>
+    </div>
+    <div class="category-card">
+        <h3>Fashion</h3>
+        <p>Latest trends and styles.</p>
+    </div>
+    <div class="category-card">
+        <h3>Personal Items</h3>
+        <p>Care and beauty products.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 9teen Ghana. Published via GitHub Pages.</p>
+</footer>
+
+</body>
+</html>
